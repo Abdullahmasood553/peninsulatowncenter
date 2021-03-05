@@ -45,6 +45,15 @@
 	font-feature-settings: "lnum"1
 }
 
+
+
+@font-face {
+	font-family: "Miller";
+	src: url("/assets/fonts/miller-display-webfont.woff2") format('woff2'), url("/assets/fonts/miller-display-webfont.woff") format('woff'), url("/assets/fonts/miller-display.otf") format('opentype');
+	font-weight: normal;
+	font-style: normal
+}
+
 html,
 body,
 div,
