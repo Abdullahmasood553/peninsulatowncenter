@@ -69,12 +69,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: "Cinzel-Regular";
-  src: url("/assets/fonts/Cinzel-Regular.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal;
-}
 
 html,
 body,
@@ -836,19 +830,19 @@ textarea {
 
 @media screen and (max-width: 75rem) and (max-width: 33.333333333333336rem) {
   .secondary-headline {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 
 @media screen and (min-width: 33.333333333333336rem) and (max-width: 75rem) {
   .secondary-headline {
-    font-size: 6vw;
+    font-size: 4vw;
   }
 }
 
 @media screen and (min-width: 75rem) and (min-width: 75rem) {
   .secondary-headline {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 }
 
@@ -951,7 +945,8 @@ textarea {
 .small-headline {
   font-family: "SharpSans Semibold";
   color: #1a1919;
-  line-height: 1;
+  line-height: 1.4;
+  letter-spacing: 3px;
 }
 
 .small-headline.uppercase {
