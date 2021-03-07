@@ -332,8 +332,7 @@ a.white {
 }
 
 .btn.btn-background.email-submit:hover:after {
-  content: "";
-  background: url("/assets/images/icons/arrow-right-white.svg");
+  color: #000;
 }
 
 .splash-continue-btn {
@@ -16778,4 +16777,13 @@ header nav ul .header-item:hover > a:first-child {
   width: 100%;
 }
 
-width: 100%;
+.footer-map{
+  width: 45vw;
+  height: 600px;
+}
+
+@media only screen and (max-width: 767px){
+  .footer-map{
+    width: 100vw;
+  }
+}
