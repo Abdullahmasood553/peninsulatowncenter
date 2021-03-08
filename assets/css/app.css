@@ -2642,7 +2642,7 @@ textarea {
     height: 100%;
     width: 100%;
     background-size: cover;
-    background-position: center center;
+    background-position: bottom bottom;
   }
 
   .masthead.large {
@@ -11942,6 +11942,18 @@ textarea {
 
   footer.night .row .logo-center.night {
     display: block;
+  }
+
+
+  .footer-map{
+    width: 45vw;
+    height: 600px;
+  }
+  
+  @media only screen and (max-width: 767px){
+    .footer-map{
+      width: 100vw;
+    }
   }
 
   .content {
