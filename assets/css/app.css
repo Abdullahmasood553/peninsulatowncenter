@@ -12164,6 +12164,7 @@ textarea {
 
   .masthead .copy-container .secondary-headline {
     text-align: center;
+    margin-top: 20px;
   }
 
   @media only screen and (max-width: 808px) and (max-width: 23.5rem) and (max-width: 23.5rem) {
