@@ -16774,7 +16774,8 @@ header nav ul .header-item:hover > a:first-child {
 
   .masthead .copy-container .secondary-headline {
     color: #000;
-    font-size: 2rem;
+    margin-top: 3rem;
+    font-size: 1.8rem;
   }
 
   .theMainVideo {
