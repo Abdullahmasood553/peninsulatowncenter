@@ -898,9 +898,12 @@ textarea {
   line-height: 1.4;
 }
 
+/* Update 24-03-21 */
+
 @media screen and (max-width: 75rem) and (max-width: 37.5rem) {
   .fourth-headline {
     font-size: 1rem;
+    padding: 0 2rem !important;
   }
 }
 
@@ -16814,13 +16817,11 @@ header nav ul .header-item:hover > a:first-child {
   }
 }
 
-
 @media only screen and (max-width: 767px) {
   .map-2 {
     width: 500px;
   }
 }
-
 
 @media only screen and (max-width: 400px) {
   .map-2 {
