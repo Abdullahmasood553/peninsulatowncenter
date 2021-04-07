@@ -143,6 +143,7 @@ body {
   background: #fff;
 }
 
+
 ol,
 ul {
   list-style: none;
@@ -7874,7 +7875,7 @@ textarea {
 
   .floorplan {
     padding: 8% 0;
-    background-color: #f2f2f2;
+    background-color: #223f88;
     position: relative;
     overflow: hidden;
     margin-bottom: 7.5rem;
