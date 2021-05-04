@@ -4160,12 +4160,19 @@ textarea {
   }
 
   .contentCarouselAlternate .carousel-pagination .divider {
+    bottom: 0 !important;
     width: 100%;
     margin: 0.4rem 0 0.6rem;
   }
 
   .contentCarouselAlternate .carousel-pagination .carousel-pagination-current {
     font-size: 1.75rem;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .contentCarouselAlternate .carousel-pagination {
+      bottom: 0 !important;
+    }
   }
 
   .contentCarouselAlternate .carousel-controls {
@@ -4375,10 +4382,11 @@ textarea {
     }
   }
 
-  .fullWidthImageCarousel
-    .carousel-slide.carousel-slide-active
-    .copy-container {
-    background-color: #fff;
+  @media only screen and (max-width: 767px) {
+    .medium {
+      font-size: 0.8rem !important;
+      margin-bottom: 2rem;
+    }
   }
 
   .fullWidthImageCarousel .carousel-controls {
