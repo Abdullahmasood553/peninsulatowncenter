@@ -2644,7 +2644,7 @@ textarea {
     height: 100%;
     width: 100%;
     background-size: cover;
-    background-position: bottom bottom;
+    background-position: center center;
   }
 
   .masthead.large {
@@ -3811,6 +3811,12 @@ textarea {
   @media only screen and (min-width: 75rem) and (min-width: 75rem) {
     .contentCarousel .copy-container .time {
       font-size: 0.8125rem;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .subtitle serif-body-small {
+      font-size: 1rem !important;
     }
   }
 
@@ -10912,7 +10918,7 @@ textarea {
 
   @media only screen and (max-width: 808px) and (min-width: 19.583333333333336rem) and (max-width: 27.416666666666668rem) {
     .serif-body-medium {
-      font-size: 5.106382978723404vw;
+      font-size: 4.106382978723404vw;
     }
   }
 
@@ -12779,7 +12785,7 @@ textarea {
       .carousel-slide
       .copy-container
       .subtitle.serif-body-small {
-      font-size: 5.106382978723404vw;
+      font-size: 4.106382978723404vw;
     }
   }
 
@@ -16842,4 +16848,32 @@ circle {
 .mapdiv circle:hover {
   fill: red;
   cursor: pointer;
+}
+
+.title-box {
+  width: 200px;
+  height: 300px;
+  padding: 30px 50px;
+}
+
+.zoom-btn {
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #222;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.zoom-btn:hover {
+  cursor: pointer;
+}
+
+.zoom-btns-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
