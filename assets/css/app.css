@@ -5660,7 +5660,7 @@ textarea {
   }
 
   .listDirectory .map-directory {
-    height: 800px !important;
+    height: auto !important;
     position: relative;
     left: 0;
     right: 0;
@@ -5701,7 +5701,7 @@ textarea {
 
   .listDirectory .top-map-container {
     position: relative;
-    height: 720px;
+    height: 900px;
     width: 100%;
   }
 
@@ -16822,7 +16822,7 @@ header nav ul .header-item:hover > a:first-child {
 
 .mapdiv {
   max-width: 1000px;
-  max-height: 700px;
+  max-height: 900px !important;
 }
 
 @media only screen and (max-width: 500px) {
@@ -16831,7 +16831,7 @@ header nav ul .header-item:hover > a:first-child {
   }
 
   .listDirectory .map-directory {
-    height: 400px !important;
+    height: auto !important;
   }
 }
 
@@ -16876,4 +16876,39 @@ circle {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+/* Update 20-05-21 */
+
+.shop-names {
+  padding: 50px 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.shop-list {
+  margin-right: 20px !important;
+  margin-bottom: 50px !important;
+}
+
+.shop-list-item {
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.shop-list-item > a {
+  text-decoration: none;
+  transition: 0.1s all ease-in-out;
+}
+
+.shop-list-item > a:hover {
+  text-decoration: none;
+  background-color: rgb(149, 2, 2);
+  color: #fff;
+  padding: 10px 0px;
+}
+
+svg path:hover {
+  cursor: pointer;
 }
